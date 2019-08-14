@@ -1,0 +1,45 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+#info-left{
+    background-color: white;
+}
+
+.fab{
+    margin-left: 5px;
+}
+
+#link-web{
+    margin-top: 220px;
+
+}
+
+.card{
+    background-color: #f8f9fa;
+}
+
+#logos{
+    padding: 20px;
+}
+
+.format{
+    background-color: white;
+    margin-top: -64px;
+    height: 60px;
+}
+
+#info-right{
+  height: 450px;
+  overflow: scroll;
+  background-color: #f8f9fa;
+}
+
+#int-r-info{
+    background-color: white;
+}
+
+#card-int-r{
+    background-color: white;
+    border: 0;
+}
