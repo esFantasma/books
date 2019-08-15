@@ -2,8 +2,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+#card-main{
+    margin-top: 3rem;
+}
+
 #info-left{
     background-color: white;
+}
+
+#info-left-text{
+    margin-top: -65px;
 }
 
 .fab{
