@@ -1,0 +1,49 @@
+/* Grid de tarjetas */
+.cont-category{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    max-width: 1280px;
+    grid-gap: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+  }
+  .tarjeta{
+    border:1px #CFD8DC solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .cont-img{
+    height:300px;
+    overflow: scroll;
+  }
+  .cont-pie-tarjeta{
+    padding: .5rem;
+    box-sizing: border-box;
+  }
+  .cont-category .tarjeta .cont-img img{
+    width:100%;
+    overflow: scroll;
+  }
+  .cont-pie-tarjeta a{
+    display: inline-block;
+    border: 1px #78909C solid;
+    padding: 15px;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  /* Scroll naranja */
+  .cont-img::-webkit-scrollbar {
+    width: 7px;
+  }
+  .cont-img::-webkit-scrollbar-thumb {
+    background: #ff9d00;
+    border-radius: 10px;
+  }
